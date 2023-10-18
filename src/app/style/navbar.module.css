@@ -1,0 +1,30 @@
+.appbar {
+    height: '150px';
+    width: auto;
+    background-color: DarkSalmon;;
+    display: flex;
+    /* flex-direction: row; */
+}
+.nav{
+    display: flex;
+    justify-content: left;
+    /* flex-direction: row; */
+    padding: 20px 10px 10px 1100px;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 15px;
+}
+.list:hover{
+    color:#4CAF50;
+    font-size: large;
+    font-weight: 700;
+}
+.img{
+    padding: 30px 10px 20px 30px;
+}
+.footer{
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
